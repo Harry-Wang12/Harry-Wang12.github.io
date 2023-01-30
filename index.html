@@ -1,1 +1,646 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Wang</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Harry Wang">Honglin Wang</h1>
+
+          <p class="title">Ph. D. Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="honglin.wang@uconn.edu" class="contact-link">honglin.wang@uconn.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8607718889" class="contact-link">+1 (860)771-8889</a>
+            </div>
+
+          </li>
+		  
+		  
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Storrs, CT, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publication</button>
+          </li>
+
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Ph.D. student of Computer Science at UConn. 
+			Rich research experience in analyzing large-scale bioinformatics datasets by utilizing and optimizing popular machine learning and combining prior knowledge in gene regulatory pathways.
+			Experienced Software Programmer skilled in Python, R, C/C++, MATLAB, Java, SQL, PyTorch, Pandas, etc.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Bioinformatics & <br> Machine learning</h4>					
+                <p class="service-item-text">
+                  Applying multiple machine/deep learning (e.g., SVM, Neural Network, K-NN, K-Means etc.) in following area: Cell-cell communication, Spatial transcriptomic analysis, Single-cell RNA-seq analysis, Gene pathway analysis & extension.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design & development</h4>
+					
+                <p class="service-item-text">
+                  The most modern and high-quality design and high-quality development.
+                </p>
+              </div>
+
+            </li>
+			
+			<li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research topic now working on</h4>
+					
+                <p class="service-item-text">
+                  A framework for inferring cell-cell communication with connecting up/downstream gene response and  gene regulatory networks with muli-omics
+                </p>
+              </div>
+
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+               </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume<span class="downloadresume"><a href="Honglin CV. 2022 - BIO.pdf" download>(Download)</a></span></h2>
+		  
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Connecticut</h4>
+
+              <span>2019 - Present</span>
+
+              <p class="timeline-text">
+                <strong>Ph. D. </strong> in Computer Science and Engineering<br>
+				<strong>Research interests </strong>: <br>
+				1. Applying Machine Learning in bio-related datasets (e.g., Single cell clustering and cell identification from images), <br>
+				2. Bioinformatics (e.g., gene pathway analysis & extension, cell-cell communication, and spatial genomics analysis).
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Connecticut</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                <strong>M. Sc.</strong> in Computer Science and Engineering<br>
+				<strong>Master Thesis</strong>: A Method to Score Pathways Using Heuristic Rules.<br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of electronic science and technology of China</h4>
+
+              <span>2013 — 2017</span>
+
+              <p class="timeline-text">
+                School of Information and Software Engineering<br>
+				<strong>B. Eng.</strong> in Software Engineering (Mainframe Computers)<br>
+				<strong>Awards</strong>: First class of people fellowships in 2014 and 2015.<br>
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web developer / Software Engineer</h4>
+
+              <span>2019 — Present</span>
+
+              <p class="timeline-text">
+              Collaborate with developers to build interactive web user interfaces to query and visualize various scientific databases. (PHP, Python, JavaScript, MySQL, JSON).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                •	Develop and deploy pipelines for analysis single-cell data using multiple Machine Learning methods. (T-SNE, UMAP, PCA, K-NN)<br>
+				•	Design Machine Learning models to classify cell types with single-cell data. (Neural Network, SVM, Regression) <br>
+				•	Apply methods to identify cells from single-cell images. (OpenCV, Scikit-image)<br>
+				•	Study of route-based pathway analysis methods for bulk and single-cell omics data. (Data Mining, Machine Learning, Visualization, Python, R)<br>
+				•	Analyze cell-cell communication for spatial genomic data with self-developed program. (Machine Learning, Visualization, Python, MATLAB)<br>
+				•	Design and publish automated workflows for next generation sequencing data analysis and visualization. (Python, JavaScript, Bash, Java)<br>
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                
+              </div>
+
+              <div class="timeline-text">
+                <p>Feature Selection, Dimensionality Reduction, Prediction, Classification, Clustering<br>
+				(e.g., Random Forest, SVM, Bayesian Networks, Regression, Neural Network)</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bioinformatics packages</h5>
+                
+              </div>
+
+              <div class="timeline-text">
+                <p>GOstat, GSEA, SPIA, KEGG, Seurat, Scanpy, BLAST, Tophat, Cufflinks, SALMON, STAR, SAMTools, DAVID, UCSC Genome Browser</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                
+              </div>
+
+              <div class="timeline-text">
+                <p>Python, PHP, JavaScript, Java, R, C/C++, MATLAB</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Miscellaneous Tools</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="timeline-text">
+                <p>Jupyter Lab, GitHub, Apache, Scikit-learn, Pandas, NumPy, PyTorch, OpenCV, Scikit-image, PowerBI, Matplotlib, Plotly, Python Dash, Cytoscape, Tableau, MySQL, MongoDB</p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="publication" data-page="publication">
+
+        <header>
+          <h2 class="h2 article-title">Publication</h2>
+        </header>
+
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+		  
+			<li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Harry-Wang12/rCom">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rCOM.png" alt="rCOM" loading="lazy">
+                </figure>
+
+                
+				<h1 class="project-title"><a href="https://dl.acm.org/doi/abs/10.1145/3535508.3545514">rCom: A route-based framework inferring cell type communication and regulatory network using single cell data</a></h1>
+				<p class="project-category">Cell communication, Topology and route-based pathway analysis,Bone marrow, Single cell RNA seq</p>
+				<details>
+				<summary>Details</summary>
+                			
+				<p class="project-details">
+				<br>
+				
+				<strong>Background: </strong> The mapping of ligand-receptor pairs is the cornerstone of understanding complicated intercellular interactions. With recent advances of single cell RNA (scRNA) sequencing technology, several methods have been proposed to infer cell-cell communication by analyzing ligand-receptor pairs. However, existing methods have limited ways of using what we call “prior knowledge”, i.e., what are already known (albeit incompletely) about the upstream for the ligand and the downstream for the receptor.
+				<strong>Method: </strong> In this paper, we present a novel framework, called rCom, capable of inferring cell-cell interactions by considering portions of pathways that would be associated with upstream of the ligand and downstream of receptors under examination. The rCom framework integrates knowledge from multiple biological databases including transcription factor-target database, ligand-receptor database and publicly available curated signaling pathway databases. The rCom framework examines combinatoric ways of integrating the partially known relationships against the cohorts of gene expression datasets obtainable through subtyped cells.  We combine both algorithmic methods and heuristic rules to score how each putative ligand-receptor pair may matchup between all possible cell subtype pairs. Permutation test is performed to rank the hypothesized cell-cell communication routes. 
+				<strong>Result and Conclusion: </strong>  We performed two case studies using single cell transcriptomic data from bone biology. Our literature survey suggests that rCom could be effective in discovering novel cell-cell communication relationships that have been only partially known in the field.
+				
+				
+				</p>
+				</details>
+				
+              </a>
+            </li>
+			
+			<li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Harry-Wang12/ctBuilder">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ctBuilder.png" alt="ctBuilder" loading="lazy">
+                </figure>
+
+                
+				<h1 class="project-title"><a href="https://ieeexplore.ieee.org/document/9669811">ctBuilder: A framework for building pathway crosstalks by combining single cell data with bulk cell data using feature selection</a></h1>
+				<p class="project-category">Pathway extension, Feature selection, Single cell rna-seq, NASH, Gene-gene interaction</p>
+				<details>
+				<summary>Details</summary>
+                			
+				<p class="project-details">
+				<br>
+				
+				<strong>Background: </strong>	Biomedical research scientists routinely use publicly available gene regulatory pathway databases (e.g., KEGG, Reactome) to extract interpretation from high-throughput multi-omics studies.  However, deficiencies of these existing pathway resources include: (i) the databases store “individualized” pathways as a collection of networks thus making discovery of crosstalk across the boundaries of curated pathways difficult; and (ii) curated pathways themselves are incomplete, particularly from the disease perspective. <br><br>
+				<strong>Method: </strong> We propose a computational pathway extension framework, called ctBuilder, which aims to tackle the deficiencies. First, it explores if “individually” curated pathways can be meaningfully extended using curated gene regulatory networks (GRNs) (e.g., BioGrid, STRING, TRRUST) which are another type of public resources available for omics data analysis. Second, it uses single cell gene expression data to identify potential candidates by tuning the pathway extension “context-specific” with ReliefF feature selection method. Third, it uses bulk cell gene expression data sets to further refine and improve likelihoods of the regulatory relationships estimated to interlink constituents involved between pathways. We claim the resulting extension incorporates crosstalk between pathways that is “disease specific” when the extension is driven exclusively by a “cohort” of gene expression data sets from a specific disease. For demonstration, we applied ctBuilder to 6 non-alcoholic steatohepatis related studies including 1 single cell dataset and 4 bulk cell datasets publicly available from GEO.<br><br>
+				<strong>Result and Conclusion: </strong>  We show how three pairs of known pathways, TNF signaling vs. NF-kB signaling, Toll-like signaling vs. NF-kB signaling, NF-kB signaling vs Insulin signaling, can be extended to include crosstalk subnetworks specifically related to the liver disease. Statistical significance of the expended network is shown through null distribution test statistics. Most of newly identified genes in the crosstalk paths are already known in the liver disease literature. Discovered relationships among them merit wet-lab experiments for validation.
+												
+				</p>
+				</details>
+				
+              </a>
+            </li>
+			
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Harry-Wang12/cTap">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cTap.png" alt="cTap" loading="lazy">
+                </figure>
+
+                
+				<h1 class="project-title"><a href="https://ieeexplore.ieee.org/document/9313303">cTAP: A Machine Learning Framework for Predicting Target Genes of a Transcription Factor using a Cohort of Gene Expression Data Sets</a></h1>
+				<p class="project-category">Machine learning, TF target analysis, Cohort analysis, Predictive models, Gene abundance analysis</p>
+				<details>
+				<summary>Details</summary>
+                			
+				<p class="project-details">
+				<br>
+				<strong>Background: </strong>Interferon regulatory factor-8 (IRF8) and nuclear factor-activated T cells c1 (NFATc1) are two transcription factors that have an important role in osteoclast differentiation. Thanks to ChIP-seq technology, scientists can now estimate potential genome-wide target genes of IRF8 and NFATc1. However, finding target genes that are consistently up-regulated or down-regulated across different studies is hard because it requires analysis of a large number of high-throughput expression studies from a comparable context.<br><br>
+				<strong>Method: </strong>We have developed a machine learning based method, called, Cohort-based TF target prediction system (cTAP) to overcome this problem. This method assumes that the pathway involving the transcription factors of interest is featured with multiple “functional groups” of marker genes pertaining to the concerned biological process. It uses two notions, Gene-Present Sufficiently (GP) and Gene-Absent Insufficiently (GA), in addition to log2 fold changes of differentially expressed genes for the prediction. Target prediction is made by applying multiple machine-learning models (including SVM, logistic regression, neural netowrk, naive bayes), which learn the patterns of GP and GA from log2 fold changes and four types of Z scores from the normalized cohort’s gene expression data. The learned patterns are then associated with the putative transcription factor targets to identify genes that consistently exhibit Up/Down gene regulation patterns within the cohort. We applied this method to 11 publicly available GEO data sets related to osteoclastgenesis.<br><br>
+				<strong>Result: </strong>Our experiment identified a small number of Up/Down IRF8 and NFATc1 target genes as relevant to osteoclast differentiation. The machine learning models using GP and GA produced NFATc1 and IRF8 target genes different than simply using a log2 fold change alone. Our literature survey revealed that all predicted target genes have known roles in bone remodeling, specifically related to the immune system and osteoclast formation and functions, suggesting confidence and validity in our method.<br><br>
+				<strong>Conclusion: </strong>cTAP was motivated by recognizing that biologists tend to use Z score values present in data sets for the analysis. However, using cTAP effectively presupposes assembling a sizable cohort of gene expression data sets within a comparable context. As public gene expression data repositories grow, the need to use cohort-based analysis method like cTAP will become increasingly important.
+				</p>
+				</details>
+				
+              </a>
+            </li>
+
+            
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
